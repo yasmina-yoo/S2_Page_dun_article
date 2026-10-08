@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #F8F5F0;
+    color: #252525;
+}
+.header {
+    background-color: #17202A;
+    padding: 25px;
+   display: flex;
+}
+nav{
+    margin-left: auto;
+}
+.logo{
+  color: #D4A373;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav a:hover {
+    color: #D4A373;
+}
+main {
+    width: 85%;
+    margin: 40px auto;
+}
+.hero {
+    background-color: white ;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+.content {
+    width: 45% ;
+}
+.label{
+    color: #D4A373;
+    font-weight: bold;
+}
+h1 {
+    color: #17202A;
+    font-size: 50px;
+    margin: 10px 0 ;
+}
+h2{
+    color: #17202A;
+}
+.image{
+    width: 55%;
+    margin-left: 40px;
+}
+.image img {
+    width: 100% ;
+    border-radius: 12px;
+}
+.button{
+    display: inline-block;
+    background-color: #D4A373;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.info,
+.card,
+.objective {
+    background-color: white;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.cards{
+    display: flex;
+}
+.card {
+    width: 50%;
+    margin-right: 25px;
+}
+.card a {
+    color:#D4A373 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+li{
+    margin-bottom: 10px;
+}
