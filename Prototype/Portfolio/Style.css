@@ -4,71 +4,85 @@ body {
     background-color: #F8F5F0;
     color: #252525;
 }
+
 .header {
     background-color: #17202A;
     padding: 25px;
-   display: flex;
+     text-align: center;
 }
-nav{
-    margin-left: auto;
+
+nav {
+    margin-top: 15px;
 }
-.logo{
-  color: #D4A373;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
+
+.logo {
+    color: #D4A373;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
 }
+
 nav a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-right: 20px;
+   
 }
+
 nav a:hover {
     color: #D4A373;
 }
+
 main {
     width: 85%;
     margin: 40px auto;
 }
+
 .hero {
-    background-color: white ;
+    background-color: white;
     padding: 40px;
-    display: flex;
-    align-items: center;
     border-radius: 15px;
 }
+
 .content {
-    width: 45% ;
+    width: 90%;
 }
-.label{
+
+.label {
     color: #D4A373;
     font-weight: bold;
 }
+
 h1 {
     color: #17202A;
     font-size: 50px;
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
-h2{
+
+h2 {
     color: #17202A;
 }
-.image{
-    width: 55%;
-    margin-left: 40px;
+
+.image {
+    width: 60%;
+    margin: 25px auto;
 }
+
 .image img {
-    width: 100% ;
+    width: 100%;
     border-radius: 12px;
 }
-.button{
-    display: inline-block;
+
+.button {
     background-color: #D4A373;
     color: white;
     padding: 12px 20px;
     text-decoration: none;
     border-radius: 8px;
+    display: inline-block;
     margin-top: 10px;
 }
+
 .info,
 .card,
 .objective {
@@ -77,18 +91,22 @@ h2{
     margin-top: 25px;
     border-radius: 15px;
 }
-.cards{
-    display: flex;
+
+.cards {
+    width: 100%;
 }
+
 .card {
-    width: 50%;
-    margin-right: 25px;
+    width: 100%;
+    box-sizing: border-box;
 }
+
 .card a {
-    color:#D4A373 ;
+    color: #D4A373;
     text-decoration: none;
     font-weight: bold;
 }
-li{
+
+li {
     margin-bottom: 10px;
 }
