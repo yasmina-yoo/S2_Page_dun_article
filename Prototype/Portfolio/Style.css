@@ -8,7 +8,7 @@ body {
 .header {
     background-color: #17202A;
     padding: 25px;
-     text-align: center;
+    text-align: center;
 }
 
 nav {
@@ -26,7 +26,6 @@ nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
-   
 }
 
 main {
@@ -88,13 +87,9 @@ h2 {
     border-radius: 15px;
 }
 
-.cards {
-    width: 100%;
-}
-
 .card {
     width: 100%;
-    box-sizing: border-box;
+    padding: 0px;
 }
 
 .card a {
